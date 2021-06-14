@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default class CoursesApi{
     constructor() {
-        this._apiBase = 'https://89.223.24.146:8000/api';
+        this._apiBase = 'http://89.223.24.146:8000/api';
     }
 
     getResource = async (url) => {
