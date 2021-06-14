@@ -1,0 +1,13 @@
+.title {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.courses-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 260px);
+    grid-gap: 30px;
+    margin-bottom: 40px;
+}
